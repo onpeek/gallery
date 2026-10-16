@@ -17,7 +17,7 @@
     getFolderContents,
   } from '$lib/utils/space-album-folders';
   import type { DragPayload } from '$lib/utils/space-album-folder-dnd';
-  import LazyAlbumGrid from '$lib/components/shared-components/lazy-album-grid.svelte';
+  import LazyAlbumGrid from '$lib/gallery/components/lazy-album-grid.svelte';
   import LoadingSpinner from '$lib/components/shared-components/LoadingSpinner.svelte';
   import SpaceAlbumCard from '$lib/components/spaces/space-album-card.svelte';
   import SpaceAlbumFolderCard from '$lib/components/spaces/space-album-folder-card.svelte';

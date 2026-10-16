@@ -1,6 +1,6 @@
 <script lang="ts">
   import AlbumCard from '$lib/components/album-page/AlbumCard.svelte';
-  import LazyAlbumGrid from '$lib/components/shared-components/lazy-album-grid.svelte';
+  import LazyAlbumGrid from '$lib/gallery/components/lazy-album-grid.svelte';
   import Portal from '$lib/elements/Portal.svelte';
   import { Route } from '$lib/route';
   import { getAlbumActions } from '$lib/services/album.service';

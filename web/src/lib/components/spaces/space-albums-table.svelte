@@ -6,7 +6,7 @@
     toggleSpaceAlbumGroupCollapsing,
     type SpaceAlbumGroup,
   } from '$lib/utils/space-album-grouping';
-  import LazyChunks from '$lib/components/shared-components/lazy-chunks.svelte';
+  import LazyChunks from '$lib/gallery/components/lazy-chunks.svelte';
   import { buildFolderSummaries, EMPTY_FOLDER_SUMMARY, getFolderContents } from '$lib/utils/space-album-folders';
   import { dateFormats } from '$lib/constants';
   import { Route } from '$lib/route';
